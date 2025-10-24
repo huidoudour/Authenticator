@@ -1,0 +1,115 @@
+---------------------------- PROCESS STARTED (12486) for package dev.sanmer.authenticator.debug ----------------------------
+2025-10-24 19:28:01.031 12486-12511 HwActivityThreadImpl    dev.sanmer.authenticator.debug       I  mSocketName: 7711074c-ce42-485a-b0a5-af8d1aa0603f
+2025-10-24 19:28:01.032 12486-12511 HwActivityThreadImpl    dev.sanmer.authenticator.debug       I  initPreloadedSocked end mPreloadStatus 2
+2025-10-24 19:28:01.049 12486-12516 ActivityThread          dev.sanmer.authenticator.debug       I  Init compatible state: true
+2025-10-24 19:28:01.060 12486-12516 HwFramewor...rtsFactory dev.sanmer.authenticator.debug       D  HwFrameworkSecurityPartsFactory in.
+2025-10-24 19:28:01.060 12486-12516 HwFramewor...rtsFactory dev.sanmer.authenticator.debug       I  add HwFrameworkSecurityPartsFactory to memory.
+2025-10-24 19:28:01.061 12486-12516 BehaviorCollectManager  dev.sanmer.authenticator.debug       E  Fail to acquire dataAnalyzerService...
+2025-10-24 19:28:01.095 12486-12511 HwActivityThreadImpl    dev.sanmer.authenticator.debug       I  before connect app.socketName:7711074c-ce42-485a-b0a5-af8d1aa0603f
+2025-10-24 19:28:01.099 12486-12486 ApplicationLoaders      dev.sanmer.authenticator.debug       D  createClassLoader zip: /data/app/dev.sanmer.authenticator.debug-ihz0ciw5y9xp1UEnH7-toQ==/base.apk librarySearchPath: /data/app/dev.sanmer.authenticator.debug-ihz0ciw5y9xp1UEnH7-toQ==/lib/arm64:/data/app/dev.sanmer.authenticator.debug-ihz0ciw5y9xp1UEnH7-toQ==/base.apk!/lib/arm64-v8a libraryPermittedPath: /data/user/0/dev.sanmer.authenticator.debug parent: java.lang.BootClassLoader@a67342e targetSdkVersion: 36 isBundled: false classLoaderName: null sharedLibraries: null
+2025-10-24 19:28:01.294 12486-12511 HwActivityThreadImpl    dev.sanmer.authenticator.debug       E  connect Error.
+2025-10-24 19:28:01.295 12486-12511 HwActivityThreadImpl    dev.sanmer.authenticator.debug       W  closeStream error.
+2025-10-24 19:28:01.295 12486-12511 HwActivityThreadImpl    dev.sanmer.authenticator.debug       I  connectContinuePreload end mPreloadStatus 3
+2025-10-24 19:28:01.297 12486-12524 HwPartIawareFactory     dev.sanmer.authenticator.debug       I  add android.common.HwPartIawareFactoryImpl to memory.
+2025-10-24 19:28:02.124 12486-12516 HwApiCacheMangerEx      dev.sanmer.authenticator.debug       I  apicache path=/storage/emulated/0 state=mounted key=dev.sanmer.authenticator.debug#10136#256
+2025-10-24 19:28:02.125 12486-12516 HwApiCacheMangerEx      dev.sanmer.authenticator.debug       I  apicache path=/storage/32B2-1F08 state=mounted key=dev.sanmer.authenticator.debug#10136#256
+2025-10-24 19:28:02.125 12486-12516 HwApiCacheMangerEx      dev.sanmer.authenticator.debug       I  need clear apicache,because volumes changed,oldCnt=0 newCnt=2
+2025-10-24 19:28:02.126 12486-12516 HwApiCacheMangerEx      dev.sanmer.authenticator.debug       I  apicache path=/storage/emulated/0 state=mounted key=dev.sanmer.authenticator.debug#10136#0
+2025-10-24 19:28:02.126 12486-12516 HwApiCacheMangerEx      dev.sanmer.authenticator.debug       I  apicache path=/storage/32B2-1F08 state=mounted key=dev.sanmer.authenticator.debug#10136#0
+2025-10-24 19:28:02.126 12486-12516 HwApiCacheMangerEx      dev.sanmer.authenticator.debug       I  need clear apicache,because volumes changed,oldCnt=2 newCnt=2
+2025-10-24 19:28:02.132 12486-12516 AwareBitmapCacher       dev.sanmer.authenticator.debug       I  init processName:dev.sanmer.authenticator.debug pid=12486 uid=10136
+2025-10-24 19:28:02.133 12486-12532 AwareLog                dev.sanmer.authenticator.debug       E  AtomicFileUtils: readFileLines file not exist: android.util.AtomicFile@8ed49e4
+2025-10-24 19:28:02.185 12486-12486 [Koin]                  dev.sanmer.authenticator.debug       I  [init] declare Android Context
+2025-10-24 19:28:02.278 12486-12486 [Koin]                  dev.sanmer.authenticator.debug       I  Started 25 definitions in 2.213 ms
+2025-10-24 19:28:02.279 12486-12486 HwTypeface              dev.sanmer.authenticator.debug       I  updateFont: scale=1.0
+2025-10-24 19:28:02.281 12486-12486 FontFamily              dev.sanmer.authenticator.debug       I  buildHwFonts: add Font {nativePtr=484398601184, path=/data/skin/fonts/DroidSansChinese.ttf, style=FontStyle { weight=400, slant=0}, ttcIndex=0, axes=, localeList=, buffer=java.nio.DirectByteBuffer[pos=0 lim=4128024 cap=4128024], isFontWeightVariable=false} to [Font {nativePtr=484398601184, path=/data/skin/fonts/DroidSansChinese.ttf, style=FontStyle { weight=400, slant=0}, ttcIndex=0, axes=, localeList=, buffer=java.nio.DirectByteBuffer[pos=0 lim=4128024 cap=4128024], isFontWeightVariable=false}]
+2025-10-24 19:28:02.282 12486-12486 SystemFonts             dev.sanmer.authenticator.debug       D  isUsingHwThemeFonts: online invariable font existed
+2025-10-24 19:28:02.283 12486-12486 ActivityThread          dev.sanmer.authenticator.debug       I  finishPreloaded preloadStatus 3
+2025-10-24 19:28:02.283 12486-12486 ActivityThread          dev.sanmer.authenticator.debug       I  finishPreloaded end preloadStatus 3
+2025-10-24 19:28:02.284 12486-12486 RmeSchedManager         dev.sanmer.authenticator.debug       I  init Rme, version is: v1.0
+2025-10-24 19:28:02.284 12486-12486 RtgSchedEvent           dev.sanmer.authenticator.debug       I  current pid:12486 AppType:-1
+2025-10-24 19:28:02.284 12486-12486 RmeSchedManager         dev.sanmer.authenticator.debug       I  init Rme, version is: v1.0
+2025-10-24 19:28:02.310 12486-12486 OpenGLRenderer          dev.sanmer.authenticator.debug       D  disableOutlineDraw is true
+2025-10-24 19:28:02.312 12486-12534 OpenGLRenderer          dev.sanmer.authenticator.debug       I  RenderThread: progress name = [dev.sanmer.authenticator.debug], viewCornerType = 0
+2025-10-24 19:28:02.312 12486-12534 iGraphics               dev.sanmer.authenticator.debug       I  [0020080c] pn: dev.sanmer.authenticator.debug, p: 12486
+2025-10-24 19:28:02.312 12486-12534 iGraphics               dev.sanmer.authenticator.debug       I  [0030080c] no spt app: dev.sanmer.authenticator.debug
+2025-10-24 19:28:02.357 12486-12486 ActivityThread          dev.sanmer.authenticator.debug       V  callActivityOnCreate
+2025-10-24 19:28:02.383 12486-12486 DecorView[]             dev.sanmer.authenticator.debug       I  pkgName:dev.sanmer.authenticator.debug old windowMode:0 new windoMode:1, isFixedSize:false
+2025-10-24 19:28:02.425 12486-12486 ActivityThread          dev.sanmer.authenticator.debug       D  add activity client record, r= ActivityRecord{eac51c3 token=android.os.BinderProxy@a761b55 {dev.sanmer.authenticator.debug/dev.sanmer.authenticator.ui.MainActivity}} token= android.os.BinderProxy@a761b55
+2025-10-24 19:28:02.440 12486-12486 MouseWheelSynthesizer   dev.sanmer.authenticator.debug       D  mMoveStepInDp: 64, mMoveStepInPixel: 119, mUpTimeDelayed: 100
+2025-10-24 19:28:02.441 12486-12486 ViewRootImpl            dev.sanmer.authenticator.debug       D  ViewRootImpl mIsInProductivePCDisplay: false
+2025-10-24 19:28:02.442 12486-12486 HwPartPowe...iceFactory dev.sanmer.authenticator.debug       I  add HwPartPowerOfficeFactoryImpl to memory.
+2025-10-24 19:28:02.447 12486-12486 DecorView[]             dev.sanmer.authenticator.debug       I  pkgName:dev.sanmer.authenticator.debug old windowMode:1 new windoMode:1, isFixedSize:false
+2025-10-24 19:28:02.452 12486-12486 InputEventReceiver      dev.sanmer.authenticator.debug       D  dispatchInputInterval 1000000
+2025-10-24 19:28:02.455 12486-12486 RmeSchedManager         dev.sanmer.authenticator.debug       I  init Rme, version is: v1.0
+2025-10-24 19:28:02.456 12486-12486 RtgSchedEvent           dev.sanmer.authenticator.debug       I  current pid:12486 AppType:-1
+2025-10-24 19:28:02.457 12486-12534 OpenGLRenderer          dev.sanmer.authenticator.debug       D  disableOutlineDraw is true
+2025-10-24 19:28:02.468 12486-12561 HiTouch_Pr...reDetector dev.sanmer.authenticator.debug       D  onAttached, package=dev.sanmer.authenticator.debug, windowType=1, mIsHiTouchRestricted=false
+2025-10-24 19:28:02.862 12486-12486 enticator.debu          dev.sanmer.authenticator.debug       W  Accessing hidden method Landroid/view/View;->getViewRootImpl()Landroid/view/ViewRootImpl; (greylist, reflection, allowed)
+2025-10-24 19:28:02.862 12486-12486 enticator.debu          dev.sanmer.authenticator.debug       W  Accessing hidden field Landroid/view/View$AttachInfo;->mVisibleInsets:Landroid/graphics/Rect; (greylist, reflection, allowed)
+2025-10-24 19:28:02.863 12486-12486 enticator.debu          dev.sanmer.authenticator.debug       W  Accessing hidden field Landroid/view/ViewRootImpl;->mAttachInfo:Landroid/view/View$AttachInfo; (greylist, reflection, allowed)
+2025-10-24 19:28:02.864 12486-12486 enticator.debu          dev.sanmer.authenticator.debug       W  Accessing hidden method Landroid/os/SystemProperties;->addChangeCallback(Ljava/lang/Runnable;)V (greylist, reflection, allowed)
+2025-10-24 19:28:02.909 12486-12486 MainViewModel           dev.sanmer.authenticator.debug       D  init
+2025-10-24 19:28:02.942 12486-12534 mali_winsys             dev.sanmer.authenticator.debug       D  EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+2025-10-24 19:28:02.989 12486-12486 DecorView               dev.sanmer.authenticator.debug       D  showOrHideHighlightView: hasFocus=true; winMode=1; isMrgNull=true
+2025-10-24 19:28:02.990 12486-12486 InputMethodManager      dev.sanmer.authenticator.debug       W  startInputReason = 1
+2025-10-24 19:28:02.993 12486-12486 HwRemoteIn...hodManager dev.sanmer.authenticator.debug       W  isCasting false because IHwDistributedWindowManager is invalid.
+2025-10-24 19:28:03.023 12486-12486 Resource                dev.sanmer.authenticator.debug       I  printErrorResource, maybe not an error because module has entative action to load resource.
+2025-10-24 19:28:03.023 12486-12486 Resources_debug         dev.sanmer.authenticator.debug       I  The apk asset path = ApkAssets{path=/system/framework/framework-res.apk}
+2025-10-24 19:28:03.023 12486-12486 Resources_debug         dev.sanmer.authenticator.debug       I  The apk asset path = ApkAssets{path=/system/framework/framework-res-hwext.apk}
+2025-10-24 19:28:03.023 12486-12486 Resources_debug         dev.sanmer.authenticator.debug       I  The apk asset path = ApkAssets{path=/hw_product/overlay/frameworkResOverlay.apk}
+2025-10-24 19:28:03.023 12486-12486 Resources_debug         dev.sanmer.authenticator.debug       I  The apk asset path = ApkAssets{path=/data/app/dev.sanmer.authenticator.debug-ihz0ciw5y9xp1UEnH7-toQ==/base.apk}
+2025-10-24 19:28:03.036 12486-12534 Gralloc3                dev.sanmer.authenticator.debug       W  mapper 3.x is not supported
+2025-10-24 19:28:03.058 12486-12486 HwViewRootImpl          dev.sanmer.authenticator.debug       I  removeInvalidNode jank list is null
+2025-10-24 19:28:03.061 12486-12486 InputMethodManager      dev.sanmer.authenticator.debug       W  startInputReason = 5
+2025-10-24 19:28:03.084 12486-12486 AndroidRuntime          dev.sanmer.authenticator.debug       E  FATAL EXCEPTION: main (Ask Gemini)
+                                                                                                    Process: dev.sanmer.authenticator.debug, PID: 12486
+                                                                                                    android.content.res.Resources$NotFoundException: Resource ID #0x106002b
+                                                                                                    	at android.content.res.ResourcesImpl.getValue(ResourcesImpl.java:416)
+                                                                                                    	at android.content.res.Resources.getColor(Resources.java:1070)
+                                                                                                    	at androidx.compose.material3.ColorResourceHelper.getColor-WaAFU9c(DynamicTonalPalette.android.kt:238)
+                                                                                                    	at androidx.compose.material3.DynamicTonalPaletteKt.dynamicTonalPalette(DynamicTonalPalette.android.kt:88)
+                                                                                                    	at androidx.compose.material3.DynamicTonalPaletteKt.dynamicLightColorScheme(DynamicTonalPalette.android.kt:208)
+                                                                                                    	at dev.sanmer.authenticator.ui.theme.ThemeKt.colorScheme(Theme.kt:40)
+                                                                                                    	at dev.sanmer.authenticator.ui.theme.ThemeKt.AppTheme(Theme.kt:28)
+                                                                                                    	at dev.sanmer.authenticator.ui.MainActivity.onCreate$lambda$1$0(MainActivity.kt:38)
+                                                                                                    	at dev.sanmer.authenticator.ui.MainActivity.$r8$lambda$DJ_n7hybpQuSX7oDscbC4WQoCx0(Unknown Source:0)
+                                                                                                    	at dev.sanmer.authenticator.ui.MainActivity$$ExternalSyntheticLambda0.invoke(D8$$SyntheticClass:0)
+                                                                                                    	at androidx.compose.runtime.internal.ComposableLambdaImpl.invoke(ComposableLambda.kt:121)
+                                                                                                    	at androidx.compose.runtime.internal.ComposableLambdaImpl.invoke(ComposableLambda.kt:51)
+                                                                                                    	at androidx.compose.runtime.CompositionLocalKt.CompositionLocalProvider(CompositionLocal.kt:390)
+                                                                                                    	at dev.sanmer.authenticator.ui.MainActivity.onCreate$lambda$1(MainActivity.kt:35)
+                                                                                                    	at dev.sanmer.authenticator.ui.MainActivity.$r8$lambda$2G0o31-dv74RJ4oKabnFaHRM5JY(Unknown Source:0)
+                                                                                                    	at dev.sanmer.authenticator.ui.MainActivity$$ExternalSyntheticLambda2.invoke(D8$$SyntheticClass:0)
+                                                                                                    	at androidx.compose.runtime.internal.ComposableLambdaImpl.invoke(ComposableLambda.kt:121)
+                                                                                                    	at androidx.compose.runtime.internal.ComposableLambdaImpl$invoke$1.invoke(ComposableLambda.kt:122)
+                                                                                                    	at androidx.compose.runtime.internal.ComposableLambdaImpl$invoke$1.invoke(ComposableLambda.kt:122)
+                                                                                                    	at androidx.compose.runtime.RecomposeScopeImpl.compose(RecomposeScopeImpl.kt:196)
+                                                                                                    	at androidx.compose.runtime.ComposerImpl.recomposeToGroupEnd(Composer.kt:2895)
+                                                                                                    	at androidx.compose.runtime.ComposerImpl.skipCurrentGroup(Composer.kt:3231)
+                                                                                                    	at androidx.compose.runtime.ComposerImpl.doCompose-aFTiNEg(Composer.kt:3855)
+                                                                                                    	at androidx.compose.runtime.ComposerImpl.recompose-aFTiNEg$runtime(Composer.kt:3779)
+                                                                                                    	at androidx.compose.runtime.CompositionImpl.recompose(Composition.kt:1075)
+                                                                                                    	at androidx.compose.runtime.Recomposer.performRecompose(Recomposer.kt:1373)
+                                                                                                    	at androidx.compose.runtime.Recomposer.access$performRecompose(Recomposer.kt:156)
+                                                                                                    	at androidx.compose.runtime.Recomposer$runRecomposeAndApplyChanges$2.invokeSuspend$lambda$22(Recomposer.kt:627)
+                                                                                                    	at androidx.compose.runtime.Recomposer$runRecomposeAndApplyChanges$2.$r8$lambda$OqADLCDYmRw1RgNUvn1CR0kX32M(Unknown Source:0)
+                                                                                                    	at androidx.compose.runtime.Recomposer$runRecomposeAndApplyChanges$2$$ExternalSyntheticLambda0.invoke(D8$$SyntheticClass:0)
+                                                                                                    	at androidx.compose.ui.platform.AndroidUiFrameClock$withFrameNanos$2$callback$1.doFrame(AndroidUiFrameClock.android.kt:39)
+                                                                                                    	at androidx.compose.ui.platform.AndroidUiDispatcher.performFrameDispatch(AndroidUiDispatcher.android.kt:108)
+                                                                                                    	at androidx.compose.ui.platform.AndroidUiDispatcher.access$performFrameDispatch(AndroidUiDispatcher.android.kt:41)
+                                                                                                    	at androidx.compose.ui.platform.AndroidUiDispatcher$dispatchCallback$1.doFrame(AndroidUiDispatcher.android.kt:69)
+                                                                                                    	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1278)
+                                                                                                    	at android.view.Choreographer.doCallbacks(Choreographer.java:1019)
+                                                                                                    	at android.view.Choreographer.doFrame(Choreographer.java:907)
+                                                                                                    	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1248)
+                                                                                                    	at android.os.Handler.handleCallback(Handler.java:900)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:103)
+                                                                                                    	at android.os.Looper.loop(Looper.java:219)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8668)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+2025-10-24 19:28:03.085 12486-12486 AndroidRuntime          dev.sanmer.authenticator.debug       E  	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+                                                                                                    	Suppressed: kotlinx.coroutines.internal.DiagnosticCoroutineContextException: [androidx.compose.runtime.PausableMonotonicFrameClock@4ea432f, androidx.compose.ui.platform.MotionDurationScaleImpl@d911d3c, StandaloneCoroutine{Cancelling}@619eac5, AndroidUiDispatcher@7ef2c1a]
+2025-10-24 19:28:03.098 12486-12486 Process                 dev.sanmer.authenticator.debug       I  Sending signal. PID: 12486 SIG: 9
+---------------------------- PROCESS ENDED (12486) for package dev.sanmer.authenticator.debug ----------------------------
